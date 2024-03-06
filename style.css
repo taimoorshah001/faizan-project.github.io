@@ -1,0 +1,156 @@
+*m {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: url(background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mme {
+    height: 600px;
+    width: 500px;
+    position: absolute;
+    right: 110px;
+    top: 30px;
+    box-shadow: 0px 0px 10px 10px rgba(91, 255, 200, 0.253);
+    transition: 4s;
+}
+
+#mme:hover {
+    transform: scale(1.1);
+}
+
+#hh1 {
+    position: absolute;
+    top: 160px;
+    left: 140px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(0, 255, 200);
+    font-size: 80px;
+    transition: 4s;
+}
+
+h1:hover {
+    transform: scale(1.1);
+}
+
+p {
+    position: absolute;
+    top: 250px;
+    left: 180px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    transition: 4s;
+}
+
+p:hover {
+    transform: scale(1.1);
+}
+
+h2 {
+    position: absolute;
+    top: 260px;
+    left: 300px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(0, 255, 200);
+    transition: 4s;
+}
+
+h2:hover {
+    transform: scale(1.1);
+}
+
+#d2 {
+    position: absolute;
+    top: 380px;
+    left: 130px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    background-color: rgb(73, 73, 73);
+    height: 25px;
+    width: 450px;
+    margin-top: 14px;
+    border-radius: 5px;
+    padding-left: 7px;
+}
+
+#d2:hover {
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+#d3 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: rgb(2, 70, 66);
+    width: 580px;
+    top: 450px;
+    left: 70px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    transition: 4s;
+}
+
+#d3:hover {
+    transform: scale(1.1);
+    text-shadow: 0px 0px 10px rgb(0, 255, 157);
+}
+
+#btn {
+    position: absolute;
+    top: 550px;
+    left: 110px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    background: rgb(58, 58, 58);
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    transition: 4s;
+}
+
+button:hover {
+    box-shadow: 0px 0px 15px 15px rgba(255, 255, 255, 0.507);
+    transform: scale(1.1);
+}
+#fbb,#ins,#whaa,#ins,#twii,#yoo
+{
+    height: 50px;
+    width: 50px;
+    position: relative;
+}
+#nav{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgb(148, 150, 149);
+gap: 15px;
+padding: 8px;
+border-radius: 8px;
+left: 1240px;
+top: 180px;
+}
+#nav:hover{
+    box-shadow: 0px 0px 10px 10px white;
+}
